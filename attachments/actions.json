@@ -1,0 +1,3169 @@
+{
+ "source": "loan plan.xlsx eTag 48 Planned Spends (sheet_rows.json), transfers excluded",
+ "app_list": "cashflow.html as downloaded 2 Nov 2026 (seed list; row dates = seed day index)",
+ "recommended": "B",
+ "options": {
+  "B": {
+   "note": "Dec-Mar card bills named 'Credit cards (Tesco + Amex)' at real dates + a \u00a30.00 'Credit card' placeholder on the 2nd of Dec/Jan/Feb/Mar to stop the auto \u00a32,200 bill (use \u2212\u00a30.01 if the form rejects 0)",
+   "deletes": [
+    {
+     "action": "DELETE",
+     "item": "Council",
+     "amount": -320,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sofa",
+     "amount": -41.6,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Child benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit union",
+     "amount": -200,
+     "account": "reward",
+     "month": "2026-11",
+     "seedDate": "2026-11-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2026-11",
+     "seedDate": "2026-11-11"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2026-11",
+     "seedDate": "2026-11-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-15"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car small",
+     "amount": -12.979,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "month": "2026-12",
+     "seedDate": "2026-12-01"
+    },
+    {
+     "action": "DELETE",
+     "item": "Netball",
+     "amount": -180,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Villa",
+     "amount": -170,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-04"
+    },
+    {
+     "action": "DELETE",
+     "item": "Life insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-05"
+    },
+    {
+     "action": "DELETE",
+     "item": "Council",
+     "amount": -320,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-06"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mortgage",
+     "amount": -1128.29,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Loan",
+     "amount": -953.58,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Child benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-11"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit union",
+     "amount": -200,
+     "account": "reward",
+     "month": "2026-12",
+     "seedDate": "2026-12-12"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2026-12",
+     "seedDate": "2026-12-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Lloyds",
+     "amount": -400,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-15"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2026-12",
+     "seedDate": "2026-12-17"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-18"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car small",
+     "amount": -12.979,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-19"
+    },
+    {
+     "action": "DELETE",
+     "item": "Servicing",
+     "amount": -16,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-01"
+    },
+    {
+     "action": "DELETE",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "month": "2027-01",
+     "seedDate": "2027-01-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Netball",
+     "amount": -180,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Villa",
+     "amount": -170,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-05"
+    },
+    {
+     "action": "DELETE",
+     "item": "Life insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-06"
+    },
+    {
+     "action": "DELETE",
+     "item": "Council",
+     "amount": -320,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mortgage",
+     "amount": -1128.29,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Loan",
+     "amount": -953.58,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-12"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit union",
+     "amount": -200,
+     "account": "reward",
+     "month": "2027-01",
+     "seedDate": "2027-01-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2027-01",
+     "seedDate": "2027-01-15"
+    },
+    {
+     "action": "DELETE",
+     "item": "Lloyds",
+     "amount": -400,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-17"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2027-01",
+     "seedDate": "2027-01-18"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-19"
+    },
+    {
+     "action": "DELETE",
+     "item": "Servicing",
+     "amount": -16,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "month": "2027-02",
+     "seedDate": "2027-02-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Netball",
+     "amount": -180,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-04"
+    },
+    {
+     "action": "DELETE",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-05"
+    },
+    {
+     "action": "DELETE",
+     "item": "Villa",
+     "amount": -170,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-06"
+    },
+    {
+     "action": "DELETE",
+     "item": "Life insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mortgage",
+     "amount": -1128.29,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Loan",
+     "amount": -953.58,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "Child benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-11"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-12"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit union",
+     "amount": -200,
+     "account": "reward",
+     "month": "2027-02",
+     "seedDate": "2027-02-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2027-02",
+     "seedDate": "2027-02-15"
+    },
+    {
+     "action": "DELETE",
+     "item": "Lloyds",
+     "amount": -400,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-17"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2027-03",
+     "seedDate": "2027-03-01"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car small",
+     "amount": -12.979,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Servicing",
+     "amount": -16,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-04"
+    },
+    {
+     "action": "DELETE",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "month": "2027-03",
+     "seedDate": "2027-03-05"
+    },
+    {
+     "action": "DELETE",
+     "item": "Netball",
+     "amount": -180,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-06"
+    },
+    {
+     "action": "DELETE",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "Villa",
+     "amount": -170,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Life insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mortgage",
+     "amount": -1128.29,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-11"
+    },
+    {
+     "action": "DELETE",
+     "item": "Loan",
+     "amount": -953.58,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-12"
+    },
+    {
+     "action": "DELETE",
+     "item": "Child benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2027-03",
+     "seedDate": "2027-03-17"
+    },
+    {
+     "action": "DELETE",
+     "item": "Lloyds",
+     "amount": -400,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-18"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-19"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2027-03",
+     "seedDate": "2027-03-20"
+    }
+   ],
+   "adds": [
+    {
+     "action": "ADD",
+     "date": "2026-11-23",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0013"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-02",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0015"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "Council",
+     "amount": -318,
+     "account": "reward",
+     "sheetRow": "r0021"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "Sofa",
+     "amount": -41.6,
+     "account": "ultimate",
+     "sheetRow": "r0022"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-02",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0028"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "Child Benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "sheetRow": "r0029"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0030"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-09",
+     "item": "PayPal",
+     "amount": -15,
+     "account": "ultimate",
+     "sheetRow": "r0031"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "Credit Union",
+     "amount": -200,
+     "account": "reward",
+     "sheetRow": "r0032"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-20",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0033"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-27",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0034"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-02",
+     "item": "Lloyds credit card",
+     "amount": -400,
+     "account": "ultimate",
+     "sheetRow": "r0035"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-26",
+     "item": "Credit card",
+     "amount": -2949.49,
+     "account": "ultimate",
+     "sheetRow": "r0036"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-24",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0041"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-30",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0042"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-27",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0045"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Servicing",
+     "amount": -12.98,
+     "account": "ultimate",
+     "sheetRow": "r0046"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-21",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0047"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-02",
+     "item": "Investment",
+     "amount": -250,
+     "account": "reward",
+     "sheetRow": "r0048"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0049"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "sheetRow": "r0050"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Life Insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "sheetRow": "r0052"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-15",
+     "item": "Council",
+     "amount": -318,
+     "account": "reward",
+     "sheetRow": "r0053"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Mortgage",
+     "amount": -1128.27,
+     "account": "ultimate",
+     "sheetRow": "r0054"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "DNA Netball (2 x \u00a342 DD)",
+     "amount": -84,
+     "account": "ultimate",
+     "sheetRow": "r0055"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "sheetRow": "r0056"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Halifax loan 1",
+     "amount": -480.37,
+     "account": "ultimate",
+     "sheetRow": "r0057"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Halifax loan 2",
+     "amount": -475.58,
+     "account": "ultimate",
+     "sheetRow": "r0058"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0059"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-14",
+     "item": "Child Benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "sheetRow": "r0060"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-15",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0061"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-09",
+     "item": "PayPal",
+     "amount": -15,
+     "account": "ultimate",
+     "sheetRow": "r0062"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-15",
+     "item": "Credit Union",
+     "amount": -200,
+     "account": "reward",
+     "sheetRow": "r0063"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-18",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0064"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-29",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0065"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Lloyds credit card",
+     "amount": -400,
+     "account": "ultimate",
+     "sheetRow": "r0066"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-29",
+     "item": "Credit cards (Tesco + Amex)",
+     "amount": -2829.66,
+     "account": "ultimate",
+     "sheetRow": "r0067"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-24",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0072"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-31",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0073"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-29",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0076"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Servicing",
+     "amount": -12.98,
+     "account": "ultimate",
+     "sheetRow": "r0077"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-21",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0078"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "sheetRow": "r0079"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0080"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Life Insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "sheetRow": "r0083"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-15",
+     "item": "Council",
+     "amount": -318,
+     "account": "reward",
+     "sheetRow": "r0084"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Mortgage",
+     "amount": -1128.27,
+     "account": "ultimate",
+     "sheetRow": "r0085"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "DNA Netball (2 x \u00a342 DD)",
+     "amount": -84,
+     "account": "ultimate",
+     "sheetRow": "r0086"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "sheetRow": "r0087"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Halifax loan 1",
+     "amount": -480.37,
+     "account": "ultimate",
+     "sheetRow": "r0088"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Halifax loan 2",
+     "amount": -475.58,
+     "account": "ultimate",
+     "sheetRow": "r0089"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0090"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-15",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0092"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-11",
+     "item": "PayPal",
+     "amount": -1.67,
+     "account": "ultimate",
+     "sheetRow": "r0093"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-15",
+     "item": "Credit Union",
+     "amount": -200,
+     "account": "reward",
+     "sheetRow": "r0094"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-20",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0095"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-27",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0096"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-02",
+     "item": "Lloyds credit card",
+     "amount": -400,
+     "account": "ultimate",
+     "sheetRow": "r0097"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-26",
+     "item": "Credit cards (Tesco + Amex)",
+     "amount": -2200,
+     "account": "ultimate",
+     "sheetRow": "r0098"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-25",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0103"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-29",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0104"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-27",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0107"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-22",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0109"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-02",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "sheetRow": "r0110"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0111"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "sheetRow": "r0112"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Villa",
+     "amount": -68.41,
+     "account": "ultimate",
+     "sheetRow": "r0113"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Life Insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "sheetRow": "r0114"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Mortgage",
+     "amount": -1128.27,
+     "account": "ultimate",
+     "sheetRow": "r0115"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "DNA Netball (2 x \u00a342 DD)",
+     "amount": -84,
+     "account": "ultimate",
+     "sheetRow": "r0116"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "sheetRow": "r0117"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Halifax loan 1",
+     "amount": -480.37,
+     "account": "ultimate",
+     "sheetRow": "r0118"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Halifax loan 2",
+     "amount": -475.58,
+     "account": "ultimate",
+     "sheetRow": "r0119"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0120"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-08",
+     "item": "Child Benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "sheetRow": "r0121"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-15",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0122"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-15",
+     "item": "Credit Union",
+     "amount": -200,
+     "account": "reward",
+     "sheetRow": "r0124"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-19",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0125"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0126"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-02",
+     "item": "Lloyds credit card",
+     "amount": -400,
+     "account": "ultimate",
+     "sheetRow": "r0127"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-26",
+     "item": "Credit cards (Tesco + Amex)",
+     "amount": -2200,
+     "account": "ultimate",
+     "sheetRow": "r0128"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-24",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0133"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-26",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0134"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0137"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Servicing",
+     "amount": -12.98,
+     "account": "ultimate",
+     "sheetRow": "r0138"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-22",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0139"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-02",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "sheetRow": "r0140"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0141"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "sheetRow": "r0142"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Villa",
+     "amount": -169.78,
+     "account": "ultimate",
+     "sheetRow": "r0143"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Life Insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "sheetRow": "r0144"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Mortgage",
+     "amount": -1128.27,
+     "account": "ultimate",
+     "sheetRow": "r0145"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "DNA Netball (2 x \u00a342 DD)",
+     "amount": -84,
+     "account": "ultimate",
+     "sheetRow": "r0146"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "sheetRow": "r0147"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Halifax loan 1",
+     "amount": -480.37,
+     "account": "ultimate",
+     "sheetRow": "r0148"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Halifax loan 2",
+     "amount": -475.58,
+     "account": "ultimate",
+     "sheetRow": "r0149"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0150"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-08",
+     "item": "Child Benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "sheetRow": "r0151"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-15",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0152"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-19",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0155"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-30",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0156"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-30",
+     "item": "Credit cards (Tesco + Amex)",
+     "amount": -2200,
+     "account": "ultimate",
+     "sheetRow": "r0158"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-24",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0163"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-31",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0164"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-30",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0167"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-02",
+     "item": "Credit card",
+     "amount": 0,
+     "account": "ultimate",
+     "sheetRow": "placeholder"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-02",
+     "item": "Credit card",
+     "amount": 0,
+     "account": "ultimate",
+     "sheetRow": "placeholder"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-02",
+     "item": "Credit card",
+     "amount": 0,
+     "account": "ultimate",
+     "sheetRow": "placeholder"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-02",
+     "item": "Credit card",
+     "amount": 0,
+     "account": "ultimate",
+     "sheetRow": "placeholder"
+    }
+   ],
+   "kept_unchanged": [
+    [
+     "2027-01-04",
+     "Water",
+     -131.61,
+     "ultimate"
+    ],
+    [
+     "2027-01-11",
+     "Child benefit",
+     179.8,
+     "ultimate"
+    ],
+    [
+     "2027-02-01",
+     "Car small",
+     -12.979,
+     "ultimate"
+    ],
+    [
+     "2027-03-15",
+     "Credit union",
+     -200,
+     "reward"
+    ]
+   ],
+   "simulation": {
+    "transfers": [
+     {
+      "date": "2026-11-30",
+      "amount": 2885.01
+     },
+     {
+      "date": "2027-01-30",
+      "amount": 5348.82
+     },
+     {
+      "date": "2027-02-28",
+      "amount": 2833.41
+     }
+    ],
+    "uncovered": {
+     "date": "2026-11-30",
+     "amount": 3.649999999999636
+    },
+    "rewardOverdrawn": null,
+    "lowsToEndJan": {
+     "reward": 0,
+     "ultimate": -3071.92,
+     "total": -389.67999999999984
+    },
+    "lowsWholeList": {
+     "reward": 0,
+     "ultimate": -3071.92,
+     "total": -389.67999999999984
+    },
+    "lowsAppWindow3m": {
+     "reward": 0,
+     "ultimate": -3071.92,
+     "total": -389.67999999999984
+    }
+   }
+  },
+  "A": {
+   "note": "All card bills named exactly 'Credit card' (Dec-Mar dates forced to the 2nd by the app)",
+   "deletes": [
+    {
+     "action": "DELETE",
+     "item": "Council",
+     "amount": -320,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sofa",
+     "amount": -41.6,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Child benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit union",
+     "amount": -200,
+     "account": "reward",
+     "month": "2026-11",
+     "seedDate": "2026-11-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2026-11",
+     "seedDate": "2026-11-11"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2026-11",
+     "seedDate": "2026-11-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-15"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car small",
+     "amount": -12.979,
+     "account": "ultimate",
+     "month": "2026-11",
+     "seedDate": "2026-11-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "month": "2026-12",
+     "seedDate": "2026-12-01"
+    },
+    {
+     "action": "DELETE",
+     "item": "Netball",
+     "amount": -180,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Villa",
+     "amount": -170,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-04"
+    },
+    {
+     "action": "DELETE",
+     "item": "Life insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-05"
+    },
+    {
+     "action": "DELETE",
+     "item": "Council",
+     "amount": -320,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-06"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mortgage",
+     "amount": -1128.29,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Loan",
+     "amount": -953.58,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Child benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-11"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit union",
+     "amount": -200,
+     "account": "reward",
+     "month": "2026-12",
+     "seedDate": "2026-12-12"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2026-12",
+     "seedDate": "2026-12-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Lloyds",
+     "amount": -400,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-15"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2026-12",
+     "seedDate": "2026-12-17"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-18"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car small",
+     "amount": -12.979,
+     "account": "ultimate",
+     "month": "2026-12",
+     "seedDate": "2026-12-19"
+    },
+    {
+     "action": "DELETE",
+     "item": "Servicing",
+     "amount": -16,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-01"
+    },
+    {
+     "action": "DELETE",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "month": "2027-01",
+     "seedDate": "2027-01-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Netball",
+     "amount": -180,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Villa",
+     "amount": -170,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-05"
+    },
+    {
+     "action": "DELETE",
+     "item": "Life insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-06"
+    },
+    {
+     "action": "DELETE",
+     "item": "Council",
+     "amount": -320,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mortgage",
+     "amount": -1128.29,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Loan",
+     "amount": -953.58,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-12"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit union",
+     "amount": -200,
+     "account": "reward",
+     "month": "2027-01",
+     "seedDate": "2027-01-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2027-01",
+     "seedDate": "2027-01-15"
+    },
+    {
+     "action": "DELETE",
+     "item": "Lloyds",
+     "amount": -400,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-17"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2027-01",
+     "seedDate": "2027-01-18"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "month": "2027-01",
+     "seedDate": "2027-01-19"
+    },
+    {
+     "action": "DELETE",
+     "item": "Servicing",
+     "amount": -16,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "month": "2027-02",
+     "seedDate": "2027-02-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Netball",
+     "amount": -180,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-04"
+    },
+    {
+     "action": "DELETE",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-05"
+    },
+    {
+     "action": "DELETE",
+     "item": "Villa",
+     "amount": -170,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-06"
+    },
+    {
+     "action": "DELETE",
+     "item": "Life insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mortgage",
+     "amount": -1128.29,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Loan",
+     "amount": -953.58,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "Child benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-11"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-12"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit union",
+     "amount": -200,
+     "account": "reward",
+     "month": "2027-02",
+     "seedDate": "2027-02-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2027-02",
+     "seedDate": "2027-02-15"
+    },
+    {
+     "action": "DELETE",
+     "item": "Lloyds",
+     "amount": -400,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2027-02",
+     "seedDate": "2027-02-17"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2027-03",
+     "seedDate": "2027-03-01"
+    },
+    {
+     "action": "DELETE",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-02"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car small",
+     "amount": -12.979,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-03"
+    },
+    {
+     "action": "DELETE",
+     "item": "Servicing",
+     "amount": -16,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-04"
+    },
+    {
+     "action": "DELETE",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "month": "2027-03",
+     "seedDate": "2027-03-05"
+    },
+    {
+     "action": "DELETE",
+     "item": "Netball",
+     "amount": -180,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-06"
+    },
+    {
+     "action": "DELETE",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-07"
+    },
+    {
+     "action": "DELETE",
+     "item": "Villa",
+     "amount": -170,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-08"
+    },
+    {
+     "action": "DELETE",
+     "item": "Life insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-09"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mortgage",
+     "amount": -1128.29,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-10"
+    },
+    {
+     "action": "DELETE",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-11"
+    },
+    {
+     "action": "DELETE",
+     "item": "Loan",
+     "amount": -953.58,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-12"
+    },
+    {
+     "action": "DELETE",
+     "item": "Child benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-13"
+    },
+    {
+     "action": "DELETE",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-14"
+    },
+    {
+     "action": "DELETE",
+     "item": "Han pay",
+     "amount": 3343,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-16"
+    },
+    {
+     "action": "DELETE",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "reward",
+     "month": "2027-03",
+     "seedDate": "2027-03-17"
+    },
+    {
+     "action": "DELETE",
+     "item": "Lloyds",
+     "amount": -400,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-18"
+    },
+    {
+     "action": "DELETE",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "month": "2027-03",
+     "seedDate": "2027-03-19"
+    },
+    {
+     "action": "DELETE",
+     "item": "Mat pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "month": "2027-03",
+     "seedDate": "2027-03-20"
+    }
+   ],
+   "adds": [
+    {
+     "action": "ADD",
+     "date": "2026-11-23",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0013"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-02",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0015"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "Council",
+     "amount": -318,
+     "account": "reward",
+     "sheetRow": "r0021"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "Sofa",
+     "amount": -41.6,
+     "account": "ultimate",
+     "sheetRow": "r0022"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-02",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0028"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "Child Benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "sheetRow": "r0029"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0030"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-09",
+     "item": "PayPal",
+     "amount": -15,
+     "account": "ultimate",
+     "sheetRow": "r0031"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-16",
+     "item": "Credit Union",
+     "amount": -200,
+     "account": "reward",
+     "sheetRow": "r0032"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-20",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0033"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-27",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0034"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-02",
+     "item": "Lloyds credit card",
+     "amount": -400,
+     "account": "ultimate",
+     "sheetRow": "r0035"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-26",
+     "item": "Credit card",
+     "amount": -2949.49,
+     "account": "ultimate",
+     "sheetRow": "r0036"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-24",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0041"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-30",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0042"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-11-27",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0045"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Servicing",
+     "amount": -12.98,
+     "account": "ultimate",
+     "sheetRow": "r0046"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-21",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0047"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-02",
+     "item": "Investment",
+     "amount": -250,
+     "account": "reward",
+     "sheetRow": "r0048"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0049"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "sheetRow": "r0050"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Life Insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "sheetRow": "r0052"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-15",
+     "item": "Council",
+     "amount": -318,
+     "account": "reward",
+     "sheetRow": "r0053"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Mortgage",
+     "amount": -1128.27,
+     "account": "ultimate",
+     "sheetRow": "r0054"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "DNA Netball (2 x \u00a342 DD)",
+     "amount": -84,
+     "account": "ultimate",
+     "sheetRow": "r0055"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "sheetRow": "r0056"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Halifax loan 1",
+     "amount": -480.37,
+     "account": "ultimate",
+     "sheetRow": "r0057"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Halifax loan 2",
+     "amount": -475.58,
+     "account": "ultimate",
+     "sheetRow": "r0058"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-01",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0059"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-14",
+     "item": "Child Benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "sheetRow": "r0060"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-15",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0061"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-09",
+     "item": "PayPal",
+     "amount": -15,
+     "account": "ultimate",
+     "sheetRow": "r0062"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-15",
+     "item": "Credit Union",
+     "amount": -200,
+     "account": "reward",
+     "sheetRow": "r0063"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-18",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0064"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-29",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0065"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Lloyds credit card",
+     "amount": -400,
+     "account": "ultimate",
+     "sheetRow": "r0066"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-29",
+     "item": "Credit card",
+     "amount": -2829.66,
+     "account": "ultimate",
+     "sheetRow": "r0067"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-24",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0072"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-31",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0073"
+    },
+    {
+     "action": "ADD",
+     "date": "2026-12-29",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0076"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Servicing",
+     "amount": -12.98,
+     "account": "ultimate",
+     "sheetRow": "r0077"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-21",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0078"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "sheetRow": "r0079"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0080"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Life Insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "sheetRow": "r0083"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-15",
+     "item": "Council",
+     "amount": -318,
+     "account": "reward",
+     "sheetRow": "r0084"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Mortgage",
+     "amount": -1128.27,
+     "account": "ultimate",
+     "sheetRow": "r0085"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "DNA Netball (2 x \u00a342 DD)",
+     "amount": -84,
+     "account": "ultimate",
+     "sheetRow": "r0086"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "sheetRow": "r0087"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Halifax loan 1",
+     "amount": -480.37,
+     "account": "ultimate",
+     "sheetRow": "r0088"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Halifax loan 2",
+     "amount": -475.58,
+     "account": "ultimate",
+     "sheetRow": "r0089"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-04",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0090"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-15",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0092"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-11",
+     "item": "PayPal",
+     "amount": -1.67,
+     "account": "ultimate",
+     "sheetRow": "r0093"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-15",
+     "item": "Credit Union",
+     "amount": -200,
+     "account": "reward",
+     "sheetRow": "r0094"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-20",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0095"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-27",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0096"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-02",
+     "item": "Lloyds credit card",
+     "amount": -400,
+     "account": "ultimate",
+     "sheetRow": "r0097"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-26",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "sheetRow": "r0098"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-25",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0103"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-29",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0104"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-01-27",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0107"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-22",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0109"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-02",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "sheetRow": "r0110"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0111"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "sheetRow": "r0112"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Villa",
+     "amount": -68.41,
+     "account": "ultimate",
+     "sheetRow": "r0113"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Life Insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "sheetRow": "r0114"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Mortgage",
+     "amount": -1128.27,
+     "account": "ultimate",
+     "sheetRow": "r0115"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "DNA Netball (2 x \u00a342 DD)",
+     "amount": -84,
+     "account": "ultimate",
+     "sheetRow": "r0116"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "sheetRow": "r0117"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Halifax loan 1",
+     "amount": -480.37,
+     "account": "ultimate",
+     "sheetRow": "r0118"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Halifax loan 2",
+     "amount": -475.58,
+     "account": "ultimate",
+     "sheetRow": "r0119"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-01",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0120"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-08",
+     "item": "Child Benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "sheetRow": "r0121"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-15",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0122"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-15",
+     "item": "Credit Union",
+     "amount": -200,
+     "account": "reward",
+     "sheetRow": "r0124"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-19",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0125"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0126"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-02",
+     "item": "Lloyds credit card",
+     "amount": -400,
+     "account": "ultimate",
+     "sheetRow": "r0127"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-26",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "sheetRow": "r0128"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-24",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0133"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-02-26",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0134"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0137"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Servicing",
+     "amount": -12.98,
+     "account": "ultimate",
+     "sheetRow": "r0138"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-22",
+     "item": "ALD lease",
+     "amount": -159,
+     "account": "ultimate",
+     "sheetRow": "r0139"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-02",
+     "item": "Investment",
+     "amount": -550,
+     "account": "reward",
+     "sheetRow": "r0140"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Netball",
+     "amount": -96,
+     "account": "ultimate",
+     "sheetRow": "r0141"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Water",
+     "amount": -131.61,
+     "account": "ultimate",
+     "sheetRow": "r0142"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Villa",
+     "amount": -169.78,
+     "account": "ultimate",
+     "sheetRow": "r0143"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Life Insurance",
+     "amount": -38.79,
+     "account": "ultimate",
+     "sheetRow": "r0144"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Mortgage",
+     "amount": -1128.27,
+     "account": "ultimate",
+     "sheetRow": "r0145"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "DNA Netball (2 x \u00a342 DD)",
+     "amount": -84,
+     "account": "ultimate",
+     "sheetRow": "r0146"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Bulb",
+     "amount": -200,
+     "account": "ultimate",
+     "sheetRow": "r0147"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Halifax loan 1",
+     "amount": -480.37,
+     "account": "ultimate",
+     "sheetRow": "r0148"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Halifax loan 2",
+     "amount": -475.58,
+     "account": "ultimate",
+     "sheetRow": "r0149"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-01",
+     "item": "Halifax account fee",
+     "amount": -19,
+     "account": "ultimate",
+     "sheetRow": "r0150"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-08",
+     "item": "Child Benefit",
+     "amount": 179.8,
+     "account": "ultimate",
+     "sheetRow": "r0151"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-15",
+     "item": "TV",
+     "amount": -12.97,
+     "account": "ultimate",
+     "sheetRow": "r0152"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-19",
+     "item": "Han Pay",
+     "amount": 3349.19,
+     "account": "ultimate",
+     "sheetRow": "r0155"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-30",
+     "item": "Car",
+     "amount": -405.09,
+     "account": "ultimate",
+     "sheetRow": "r0156"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-30",
+     "item": "Credit card",
+     "amount": -2200,
+     "account": "ultimate",
+     "sheetRow": "r0158"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-24",
+     "item": "Elite Netball",
+     "amount": -89,
+     "account": "ultimate",
+     "sheetRow": "r0163"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-31",
+     "item": "Mat Pay",
+     "amount": 3583.41,
+     "account": "reward",
+     "sheetRow": "r0164"
+    },
+    {
+     "action": "ADD",
+     "date": "2027-03-30",
+     "item": "Sky",
+     "amount": -75,
+     "account": "ultimate",
+     "sheetRow": "r0167"
+    }
+   ],
+   "kept_unchanged": [
+    [
+     "2027-01-04",
+     "Water",
+     -131.61,
+     "ultimate"
+    ],
+    [
+     "2027-01-11",
+     "Child benefit",
+     179.8,
+     "ultimate"
+    ],
+    [
+     "2027-02-01",
+     "Car small",
+     -12.979,
+     "ultimate"
+    ],
+    [
+     "2027-03-15",
+     "Credit union",
+     -200,
+     "reward"
+    ]
+   ],
+   "simulation": {
+    "transfers": [
+     {
+      "date": "2026-11-30",
+      "amount": 2885.01
+     },
+     {
+      "date": "2027-01-30",
+      "amount": 5348.82
+     },
+     {
+      "date": "2027-02-28",
+      "amount": 2833.41
+     }
+    ],
+    "uncovered": {
+     "date": "2026-11-30",
+     "amount": 2791.5800000000004
+    },
+    "rewardOverdrawn": null,
+    "lowsToEndJan": {
+     "reward": 0,
+     "ultimate": -5271.919999999999,
+     "total": -2624.7499999999995
+    },
+    "lowsWholeList": {
+     "reward": 0,
+     "ultimate": -5271.919999999999,
+     "total": -2624.7499999999995
+    },
+    "lowsAppWindow3m": {
+     "reward": 0,
+     "ultimate": -5271.919999999999,
+     "total": -2624.7499999999995
+    }
+   }
+  }
+ }
+}

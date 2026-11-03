@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS plan_state (
+  user_id TEXT PRIMARY KEY,
+  payload TEXT NOT NULL,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);

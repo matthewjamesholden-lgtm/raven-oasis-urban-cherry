@@ -1,0 +1,209 @@
+# Hearth Cashflow fix list (read-only plan, nothing changed)
+
+Source: loan plan.xlsx eTag 48, unpaid Planned Spends 2 Nov 2026 to 31 Mar 2027, Reward→Ultimate transfers left out (the app adds them). Opening balances Reward £587.60, Ultimate £567.83.
+
+Recommended Option B: **82 deletes, 109 adds** (incl. 4 £0 placeholders); 4 app rows already match and stay: Water −£131.61 Ultimate 2027-01-04; Child benefit +£179.80 Ultimate 2027-01-11; Car small −£12.98 Ultimate 2027-02-01; Credit union −£200.00 Reward 2027-03-15
+
+## Card bill handling
+- The app only recognises a card bill if the item is exactly `Credit card` (case-sensitive). From Dec 2026 it moves any `Credit card` item to the 2nd. For any month from Dec to Mar without one, it also adds a £2,200 bill on the 2nd.
+- Option B (recommended): Nov stays `Credit card` 26 Nov (Nov dates aren't moved). Dec–Mar bills are named `Credit cards (Tesco + Amex)` on their real dates, plus a £0.00 `Credit card` row on the 2nd of each month to block the auto £2,200. If the form won't take 0, use −£0.01.
+- Option A: name every bill `Credit card`. Same deletes; adds are the same minus the 4 placeholders, with the Dec–Mar bills named `Credit card`. The app then moves 29 Dec→2 Dec, 26 Jan→2 Jan, 26 Feb→2 Feb and 30 Mar→2 Mar, so each bill lands before Han's pay and the dips get deeper.
+
+## Simulated result (app's own plan() from cashflow-BBrqCax2.js)
+- Option B: transfers 2026-11-30 £2,885.01, 2027-01-30 £5,348.82, 2027-02-28 £2,833.41. Lowest combined **−£389.68 on 15 Jan 2027**; lowest Ultimate −£3,071.92 on 11 Jan. Reward never overdrawn. No transfer for Jan because the app moves money on 30 Dec, before Mat's pay on 31 Dec, so Reward has £0 to give. The Jan shortfall of about £3,072 is left uncovered (about £3.65 on 29 Dec, £270 in Feb, £85 in Mar too).
+- Option A: transfers 2026-11-30 £2,885.01, 2027-01-30 £5,348.82, 2027-02-28 £2,833.41. Lowest combined **−£2,624.75 on 15 Dec 2026**; lowest Ultimate −£5,271.92. Dec has £2,791.58 uncovered.
+
+## DELETE (all options)
+- DELETE Council, −£320.00, Ultimate, 2026-11 (seed date 2026-11-02)
+- DELETE Sofa, −£41.60, Ultimate, 2026-11 (seed date 2026-11-03)
+- DELETE Child benefit, +£179.80, Ultimate, 2026-11 (seed date 2026-11-07)
+- DELETE TV, −£12.97, Ultimate, 2026-11 (seed date 2026-11-08)
+- DELETE Credit union, −£200.00, Reward, 2026-11 (seed date 2026-11-09)
+- DELETE Han pay, +£3,343.00, Ultimate, 2026-11 (seed date 2026-11-10)
+- DELETE Car, −£405.09, Reward, 2026-11 (seed date 2026-11-11)
+- DELETE Credit card, −£2,200.00, Ultimate, 2026-11 (seed date 2026-11-13)
+- DELETE Mat pay, +£3,583.41, Reward, 2026-11 (seed date 2026-11-14)
+- DELETE Sky, −£75.00, Ultimate, 2026-11 (seed date 2026-11-15)
+- DELETE Car small, −£12.98, Ultimate, 2026-11 (seed date 2026-11-16)
+- DELETE Investment, −£550.00, Reward, 2026-12 (seed date 2026-12-01)
+- DELETE Netball, −£180.00, Ultimate, 2026-12 (seed date 2026-12-02)
+- DELETE Water, −£131.61, Ultimate, 2026-12 (seed date 2026-12-03)
+- DELETE Villa, −£170.00, Ultimate, 2026-12 (seed date 2026-12-04)
+- DELETE Life insurance, −£38.79, Ultimate, 2026-12 (seed date 2026-12-05)
+- DELETE Council, −£320.00, Ultimate, 2026-12 (seed date 2026-12-06)
+- DELETE Mortgage, −£1,128.29, Ultimate, 2026-12 (seed date 2026-12-07)
+- DELETE Bulb, −£200.00, Ultimate, 2026-12 (seed date 2026-12-08)
+- DELETE Loan, −£953.58, Ultimate, 2026-12 (seed date 2026-12-09)
+- DELETE Child benefit, +£179.80, Ultimate, 2026-12 (seed date 2026-12-10)
+- DELETE TV, −£12.97, Ultimate, 2026-12 (seed date 2026-12-11)
+- DELETE Credit union, −£200.00, Reward, 2026-12 (seed date 2026-12-12)
+- DELETE Han pay, +£3,343.00, Ultimate, 2026-12 (seed date 2026-12-13)
+- DELETE Car, −£405.09, Reward, 2026-12 (seed date 2026-12-14)
+- DELETE Lloyds, −£400.00, Ultimate, 2026-12 (seed date 2026-12-15)
+- DELETE Credit card, −£2,200.00, Ultimate, 2026-12 (seed date 2026-12-16)
+- DELETE Mat pay, +£3,583.41, Reward, 2026-12 (seed date 2026-12-17)
+- DELETE Sky, −£75.00, Ultimate, 2026-12 (seed date 2026-12-18)
+- DELETE Car small, −£12.98, Ultimate, 2026-12 (seed date 2026-12-19)
+- DELETE Servicing, −£16.00, Ultimate, 2027-01 (seed date 2027-01-01)
+- DELETE Investment, −£550.00, Reward, 2027-01 (seed date 2027-01-02)
+- DELETE Netball, −£180.00, Ultimate, 2027-01 (seed date 2027-01-03)
+- DELETE Villa, −£170.00, Ultimate, 2027-01 (seed date 2027-01-05)
+- DELETE Life insurance, −£38.79, Ultimate, 2027-01 (seed date 2027-01-06)
+- DELETE Council, −£320.00, Ultimate, 2027-01 (seed date 2027-01-07)
+- DELETE Mortgage, −£1,128.29, Ultimate, 2027-01 (seed date 2027-01-08)
+- DELETE Bulb, −£200.00, Ultimate, 2027-01 (seed date 2027-01-09)
+- DELETE Loan, −£953.58, Ultimate, 2027-01 (seed date 2027-01-10)
+- DELETE TV, −£12.97, Ultimate, 2027-01 (seed date 2027-01-12)
+- DELETE Credit union, −£200.00, Reward, 2027-01 (seed date 2027-01-13)
+- DELETE Han pay, +£3,343.00, Ultimate, 2027-01 (seed date 2027-01-14)
+- DELETE Car, −£405.09, Reward, 2027-01 (seed date 2027-01-15)
+- DELETE Lloyds, −£400.00, Ultimate, 2027-01 (seed date 2027-01-16)
+- DELETE Credit card, −£2,200.00, Ultimate, 2027-01 (seed date 2027-01-17)
+- DELETE Mat pay, +£3,583.41, Reward, 2027-01 (seed date 2027-01-18)
+- DELETE Sky, −£75.00, Ultimate, 2027-01 (seed date 2027-01-19)
+- DELETE Servicing, −£16.00, Ultimate, 2027-02 (seed date 2027-02-02)
+- DELETE Investment, −£550.00, Reward, 2027-02 (seed date 2027-02-03)
+- DELETE Netball, −£180.00, Ultimate, 2027-02 (seed date 2027-02-04)
+- DELETE Water, −£131.61, Ultimate, 2027-02 (seed date 2027-02-05)
+- DELETE Villa, −£170.00, Ultimate, 2027-02 (seed date 2027-02-06)
+- DELETE Life insurance, −£38.79, Ultimate, 2027-02 (seed date 2027-02-07)
+- DELETE Mortgage, −£1,128.29, Ultimate, 2027-02 (seed date 2027-02-08)
+- DELETE Bulb, −£200.00, Ultimate, 2027-02 (seed date 2027-02-09)
+- DELETE Loan, −£953.58, Ultimate, 2027-02 (seed date 2027-02-10)
+- DELETE Child benefit, +£179.80, Ultimate, 2027-02 (seed date 2027-02-11)
+- DELETE TV, −£12.97, Ultimate, 2027-02 (seed date 2027-02-12)
+- DELETE Credit union, −£200.00, Reward, 2027-02 (seed date 2027-02-13)
+- DELETE Han pay, +£3,343.00, Ultimate, 2027-02 (seed date 2027-02-14)
+- DELETE Car, −£405.09, Reward, 2027-02 (seed date 2027-02-15)
+- DELETE Lloyds, −£400.00, Ultimate, 2027-02 (seed date 2027-02-16)
+- DELETE Credit card, −£2,200.00, Ultimate, 2027-02 (seed date 2027-02-17)
+- DELETE Mat pay, +£3,583.41, Reward, 2027-03 (seed date 2027-03-01)
+- DELETE Sky, −£75.00, Ultimate, 2027-03 (seed date 2027-03-02)
+- DELETE Car small, −£12.98, Ultimate, 2027-03 (seed date 2027-03-03)
+- DELETE Servicing, −£16.00, Ultimate, 2027-03 (seed date 2027-03-04)
+- DELETE Investment, −£550.00, Reward, 2027-03 (seed date 2027-03-05)
+- DELETE Netball, −£180.00, Ultimate, 2027-03 (seed date 2027-03-06)
+- DELETE Water, −£131.61, Ultimate, 2027-03 (seed date 2027-03-07)
+- DELETE Villa, −£170.00, Ultimate, 2027-03 (seed date 2027-03-08)
+- DELETE Life insurance, −£38.79, Ultimate, 2027-03 (seed date 2027-03-09)
+- DELETE Mortgage, −£1,128.29, Ultimate, 2027-03 (seed date 2027-03-10)
+- DELETE Bulb, −£200.00, Ultimate, 2027-03 (seed date 2027-03-11)
+- DELETE Loan, −£953.58, Ultimate, 2027-03 (seed date 2027-03-12)
+- DELETE Child benefit, +£179.80, Ultimate, 2027-03 (seed date 2027-03-13)
+- DELETE TV, −£12.97, Ultimate, 2027-03 (seed date 2027-03-14)
+- DELETE Han pay, +£3,343.00, Ultimate, 2027-03 (seed date 2027-03-16)
+- DELETE Car, −£405.09, Reward, 2027-03 (seed date 2027-03-17)
+- DELETE Lloyds, −£400.00, Ultimate, 2027-03 (seed date 2027-03-18)
+- DELETE Credit card, −£2,200.00, Ultimate, 2027-03 (seed date 2027-03-19)
+- DELETE Mat pay, +£3,583.41, Reward, 2027-03 (seed date 2027-03-20)
+
+## ADD (Option B)
+- ADD 2026-11-23, ALD lease, −£159.00, Ultimate
+- ADD 2026-11-02, Netball, −£96.00, Ultimate
+- ADD 2026-11-16, Council, −£318.00, Reward
+- ADD 2026-11-16, Sofa, −£41.60, Ultimate
+- ADD 2026-11-02, Halifax account fee, −£19.00, Ultimate
+- ADD 2026-11-16, Child Benefit, +£179.80, Ultimate
+- ADD 2026-11-16, TV, −£12.97, Ultimate
+- ADD 2026-11-09, PayPal, −£15.00, Ultimate
+- ADD 2026-11-16, Credit Union, −£200.00, Reward
+- ADD 2026-11-20, Han Pay, +£3,349.19, Ultimate
+- ADD 2026-11-27, Car, −£405.09, Ultimate
+- ADD 2026-12-02, Lloyds credit card, −£400.00, Ultimate
+- ADD 2026-11-26, Credit card, −£2,949.49, Ultimate
+- ADD 2026-11-24, Elite Netball, −£89.00, Ultimate
+- ADD 2026-11-30, Mat Pay, +£3,583.41, Reward
+- ADD 2026-11-27, Sky, −£75.00, Ultimate
+- ADD 2026-12-01, Servicing, −£12.98, Ultimate
+- ADD 2026-12-21, ALD lease, −£159.00, Ultimate
+- ADD 2026-12-02, Investment, −£250.00, Reward
+- ADD 2026-12-01, Netball, −£96.00, Ultimate
+- ADD 2026-12-01, Water, −£131.61, Ultimate
+- ADD 2026-12-01, Life Insurance, −£38.79, Ultimate
+- ADD 2026-12-15, Council, −£318.00, Reward
+- ADD 2026-12-01, Mortgage, −£1,128.27, Ultimate
+- ADD 2026-12-01, DNA Netball (2 x £42 DD), −£84.00, Ultimate
+- ADD 2026-12-01, Bulb, −£200.00, Ultimate
+- ADD 2026-12-01, Halifax loan 1, −£480.37, Ultimate
+- ADD 2026-12-01, Halifax loan 2, −£475.58, Ultimate
+- ADD 2026-12-01, Halifax account fee, −£19.00, Ultimate
+- ADD 2026-12-14, Child Benefit, +£179.80, Ultimate
+- ADD 2026-12-15, TV, −£12.97, Ultimate
+- ADD 2026-12-09, PayPal, −£15.00, Ultimate
+- ADD 2026-12-15, Credit Union, −£200.00, Reward
+- ADD 2026-12-18, Han Pay, +£3,349.19, Ultimate
+- ADD 2026-12-29, Car, −£405.09, Ultimate
+- ADD 2027-01-04, Lloyds credit card, −£400.00, Ultimate
+- ADD 2026-12-29, Credit cards (Tesco + Amex), −£2,829.66, Ultimate
+- ADD 2026-12-24, Elite Netball, −£89.00, Ultimate
+- ADD 2026-12-31, Mat Pay, +£3,583.41, Reward
+- ADD 2026-12-29, Sky, −£75.00, Ultimate
+- ADD 2027-01-04, Servicing, −£12.98, Ultimate
+- ADD 2027-01-21, ALD lease, −£159.00, Ultimate
+- ADD 2027-01-04, Investment, −£550.00, Reward
+- ADD 2027-01-04, Netball, −£96.00, Ultimate
+- ADD 2027-01-04, Life Insurance, −£38.79, Ultimate
+- ADD 2027-01-15, Council, −£318.00, Reward
+- ADD 2027-01-04, Mortgage, −£1,128.27, Ultimate
+- ADD 2027-01-04, DNA Netball (2 x £42 DD), −£84.00, Ultimate
+- ADD 2027-01-04, Bulb, −£200.00, Ultimate
+- ADD 2027-01-04, Halifax loan 1, −£480.37, Ultimate
+- ADD 2027-01-04, Halifax loan 2, −£475.58, Ultimate
+- ADD 2027-01-04, Halifax account fee, −£19.00, Ultimate
+- ADD 2027-01-15, TV, −£12.97, Ultimate
+- ADD 2027-01-11, PayPal, −£1.67, Ultimate
+- ADD 2027-01-15, Credit Union, −£200.00, Reward
+- ADD 2027-01-20, Han Pay, +£3,349.19, Ultimate
+- ADD 2027-01-27, Car, −£405.09, Ultimate
+- ADD 2027-02-02, Lloyds credit card, −£400.00, Ultimate
+- ADD 2027-01-26, Credit cards (Tesco + Amex), −£2,200.00, Ultimate
+- ADD 2027-01-25, Elite Netball, −£89.00, Ultimate
+- ADD 2027-01-29, Mat Pay, +£3,583.41, Reward
+- ADD 2027-01-27, Sky, −£75.00, Ultimate
+- ADD 2027-02-22, ALD lease, −£159.00, Ultimate
+- ADD 2027-02-02, Investment, −£550.00, Reward
+- ADD 2027-02-01, Netball, −£96.00, Ultimate
+- ADD 2027-02-01, Water, −£131.61, Ultimate
+- ADD 2027-02-01, Villa, −£68.41, Ultimate
+- ADD 2027-02-01, Life Insurance, −£38.79, Ultimate
+- ADD 2027-02-01, Mortgage, −£1,128.27, Ultimate
+- ADD 2027-02-01, DNA Netball (2 x £42 DD), −£84.00, Ultimate
+- ADD 2027-02-01, Bulb, −£200.00, Ultimate
+- ADD 2027-02-01, Halifax loan 1, −£480.37, Ultimate
+- ADD 2027-02-01, Halifax loan 2, −£475.58, Ultimate
+- ADD 2027-02-01, Halifax account fee, −£19.00, Ultimate
+- ADD 2027-02-08, Child Benefit, +£179.80, Ultimate
+- ADD 2027-02-15, TV, −£12.97, Ultimate
+- ADD 2027-02-15, Credit Union, −£200.00, Reward
+- ADD 2027-02-19, Han Pay, +£3,349.19, Ultimate
+- ADD 2027-03-01, Car, −£405.09, Ultimate
+- ADD 2027-03-02, Lloyds credit card, −£400.00, Ultimate
+- ADD 2027-02-26, Credit cards (Tesco + Amex), −£2,200.00, Ultimate
+- ADD 2027-02-24, Elite Netball, −£89.00, Ultimate
+- ADD 2027-02-26, Mat Pay, +£3,583.41, Reward
+- ADD 2027-03-01, Sky, −£75.00, Ultimate
+- ADD 2027-03-01, Servicing, −£12.98, Ultimate
+- ADD 2027-03-22, ALD lease, −£159.00, Ultimate
+- ADD 2027-03-02, Investment, −£550.00, Reward
+- ADD 2027-03-01, Netball, −£96.00, Ultimate
+- ADD 2027-03-01, Water, −£131.61, Ultimate
+- ADD 2027-03-01, Villa, −£169.78, Ultimate
+- ADD 2027-03-01, Life Insurance, −£38.79, Ultimate
+- ADD 2027-03-01, Mortgage, −£1,128.27, Ultimate
+- ADD 2027-03-01, DNA Netball (2 x £42 DD), −£84.00, Ultimate
+- ADD 2027-03-01, Bulb, −£200.00, Ultimate
+- ADD 2027-03-01, Halifax loan 1, −£480.37, Ultimate
+- ADD 2027-03-01, Halifax loan 2, −£475.58, Ultimate
+- ADD 2027-03-01, Halifax account fee, −£19.00, Ultimate
+- ADD 2027-03-08, Child Benefit, +£179.80, Ultimate
+- ADD 2027-03-15, TV, −£12.97, Ultimate
+- ADD 2027-03-19, Han Pay, +£3,349.19, Ultimate
+- ADD 2027-03-30, Car, −£405.09, Ultimate
+- ADD 2027-03-30, Credit cards (Tesco + Amex), −£2,200.00, Ultimate
+- ADD 2027-03-24, Elite Netball, −£89.00, Ultimate
+- ADD 2027-03-31, Mat Pay, +£3,583.41, Reward
+- ADD 2027-03-30, Sky, −£75.00, Ultimate
+- ADD 2026-12-02, Credit card, £0.00, Ultimate
+- ADD 2027-01-02, Credit card, £0.00, Ultimate
+- ADD 2027-02-02, Credit card, £0.00, Ultimate
+- ADD 2027-03-02, Credit card, £0.00, Ultimate
